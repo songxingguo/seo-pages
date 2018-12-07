@@ -1,0 +1,17 @@
+{
+  "name": "seo-pages",
+  "version": "1.0.0",
+  "description": "jinlidd seo pages",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@git.lianwiki.cn:lucky/seo-pages.git"
+  },
+  "keywords": [
+    "jinlidd",
+    "seo"
+  ],
+  "author": "calvin",
+  "license": "ISC"
+}
