@@ -63,12 +63,12 @@
   }
 
   .cover {
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 0 51px;
+    margin: 150px 0 129px;
   }
 
   .titleArea {
@@ -76,6 +76,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .titleArea .title {
