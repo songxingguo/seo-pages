@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "jinlidd seo pages",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  },
   "repository": {
     "type": "git",
     "url": "git@git.lianwiki.cn:lucky/seo-pages.git"
@@ -13,5 +14,9 @@
     "seo"
   ],
   "author": "calvin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
 }
