@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "seo-pages",
+      "script": "bin/www",
+      "cwd": "./",
+      "watch": [
+        "bin",
+        "config",
+        "routes",
+        "pages"
+      ],
+      "error_file": "./logs/seo-pages-err.log",
+      "out_file": "./logs/seo-pages-out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
