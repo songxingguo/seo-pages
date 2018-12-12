@@ -8,5 +8,13 @@ html(lang='cn')
     link(rel='stylesheet', type='text/css', href='/styles/reset.css')
     link(rel='stylesheet', type='text/css', href='/styles/index.css')
     script(type='application/javascript', src='https://cdn.jinlidd.com/assets/js/flexible.min.js')
+    style.
+      .container {
+        background-image: url(#{pcUrl});
+      }
+    style(media='screen and (max-width:768px)').
+      .container {
+        background-image: url(#{mbUrl});
+      }
   body
     block content

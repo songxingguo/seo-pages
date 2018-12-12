@@ -1,14 +1,28 @@
 const router = require('koa-router')()
+const { goodCar, goodDrink, goodHouse, goodLooking, goodPlay } = require('../assets/js/config.js')
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('goodCars/index', {
-    title: '好车多多',
-    subtitle: '和你一样喜欢好车的人，也在这里',
-    describe: '锦鲤多多，好运连连',
-    pcUrl: '/images/pc-bg.jpg',
-    mbUrl: '/images/mb-bg.jpg',
-    QRCodeUrl: '/images/QR-code.png'
-  })
+  await ctx.render('index', goodCar)
+})
+
+router.get('/goodCar', async (ctx, next) => {
+  await ctx.render('index', goodCar)
+})
+
+router.get('/goodDrink', async (ctx, next) => {
+  await ctx.render('index', goodDrink)
+})
+
+router.get('/goodHouse', async (ctx, next) => {
+  await ctx.render('index', goodHouse)
+})
+
+router.get('/goodLooking', async (ctx, next) => {
+  await ctx.render('index', goodLooking)
+})
+
+router.get('/goodPlay', async (ctx, next) => {
+  await ctx.render('index', goodPlay)
 })
 
 module.exports = router
