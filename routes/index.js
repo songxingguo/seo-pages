@@ -2,7 +2,7 @@ const router = require('koa-router')()
 const { goodCar, goodDrink, goodHouse, goodLooking, goodPlay } = require('../assets/js/config.js')
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', goodCar)
+  ctx.body = ctx.headers['host']
 })
 
 router.get('/goodCar', async (ctx, next) => {
