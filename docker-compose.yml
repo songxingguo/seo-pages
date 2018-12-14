@@ -1,7 +1,7 @@
 version: '2.0'
 services:
   redis:
-    image: 'registry.cn-qingdao.aliyuncs.com/dayue/seo-pages:1.0.2'
+    image: 'registry.cn-qingdao.aliyuncs.com/dayue/seo-pages:1.0.3'
     restart: always
     ports:
     - '3000:3000'
