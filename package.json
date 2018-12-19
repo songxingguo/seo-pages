@@ -7,7 +7,8 @@
   "scripts": {
     "start": "pm2 start ./ecosystem.config.js --no-daemon",
     "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "pm2 start bin/www"
+    "prd": "pm2 start bin/www",
+    "release": "node ./routes/release.js"
   },
   "repository": {
     "type": "git",
