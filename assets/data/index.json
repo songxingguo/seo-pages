@@ -5,7 +5,7 @@
     "keywords": "汽车，买车，汽车网，汽车报价，汽车图片，新闻，评测，B级车",
     "description": "好车多多提供汽车资讯，精彩的汽车新闻、行情、评测、导购内容。",
     "describe": "锦鲤多多，好运连连",
-    "pcUrl": "./images/goodCar-pc.jpg",
+    "pcUrl": "/images/goodCar-pc.jpg",
     "mbUrl": "/images/goodCar-mb.jpg",
     "QRCodeUrl": "/images/QR-code.png"
   },
@@ -15,8 +15,8 @@
     "keywords": "白酒，进口，葡萄酒，洋酒，红酒，啤酒，黄酒，小酒，老酒",
     "description": "好喝多多，干杯。",
     "describe": "锦鲤多多，好运连连",
-    "pcUrl": "../images/goodDrink-pc.jpg",
-    "mbUrl": "../images/goodDrink-mb.jpg",
+    "pcUrl": "/images/goodDrink-pc.jpg",
+    "mbUrl": "/images/goodDrink-mb.jpg",
     "QRCodeUrl": "/images/QR-code.png"
   },
   "goodHouse": {

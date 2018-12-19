@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-const {goodCar, goodDrink, goodHouse, goodLooking, goodPlay} = require('../assets/js/config.js')
+const {goodCar, goodDrink, goodHouse, goodLooking, goodPlay} = require('../assets/data/index.json')
 
 router.get('/', async (ctx, next) => {
   const {host} = ctx.headers
