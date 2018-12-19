@@ -1,6 +1,7 @@
 const { resolve, join } = require('path')
-const { compileFile } = require('pug');
 const {mkdir, writeFileSync} = require('fs');
+const compileFile = require('pug').compileFile;
+const ncp = require('ncp').ncp;
 
 const path = './../pages/index.pug';
 const data = require('./../assets/data/index.json');
@@ -9,7 +10,9 @@ const data = require('./../assets/data/index.json');
   options = {},
   root = './dist/',
   prefix = './../../assets',
-  fieldArr = ['pcUrl', 'mbUrl', 'QRCodeUrl']
+  fieldArr = ['pcUrl', 'mbUrl', 'QRCodeUrl'],
+  dir = './../assets/',
+  outdir = 'dist/'
 } = {}) {
   // 创建根目录
   mkdir(join(root), function () {
@@ -26,4 +29,9 @@ const data = require('./../assets/data/index.json');
       });
     }
   })
+
+  // 拷贝 styles 到 dist 目录
+  ncp(resolve(__dirname, dir + 'styles/'), outdir + 'styles');
+  // 拷贝 images 到 dist 目录
+  ncp(resolve(__dirname, dir + 'images/'), outdir + 'images');
 })(path, {options: data});
