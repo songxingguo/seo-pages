@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  seo:
+    image: 'registry.cn-qingdao.aliyuncs.com/dayue/seo-pages:1.0.3'
+    restart: always
+    ports:
+    - '3000:3000'

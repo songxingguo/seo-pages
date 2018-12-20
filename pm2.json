@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "seo-pages",
-      "script": "bin/www",
+      "script": "bin/www.js",
       "cwd": "./",
       "watch": [
         "bin",

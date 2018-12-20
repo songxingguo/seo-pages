@@ -1,28 +1,16 @@
 const router = require('koa-router')()
-const { goodCar, goodDrink, goodHouse, goodLooking, goodPlay } = require('../assets/js/config.js')
+const {goodCar, goodDrink, goodHouse, goodLooking, goodPlay} = require('../assets/data/index.json')
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', goodCar)
-})
-
-router.get('/goodCar', async (ctx, next) => {
-  await ctx.render('index', goodCar)
-})
-
-router.get('/goodDrink', async (ctx, next) => {
-  await ctx.render('index', goodDrink)
-})
-
-router.get('/goodHouse', async (ctx, next) => {
-  await ctx.render('index', goodHouse)
-})
-
-router.get('/goodLooking', async (ctx, next) => {
-  await ctx.render('index', goodLooking)
-})
-
-router.get('/goodPlay', async (ctx, next) => {
-  await ctx.render('index', goodPlay)
+  const {host} = ctx.headers
+  const config = {
+    'www.haochedd.com': goodCar,
+    'www.haohedd.com': goodDrink,
+    'www.haofangdd.com': goodHouse,
+    'www.haokandd.com': goodLooking,
+    'www.haowandd.com': goodPlay
+  }[host] || goodCar
+  await ctx.render('index', config)
 })
 
 module.exports = router
