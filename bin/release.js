@@ -4,7 +4,7 @@ const compileFile = require('pug').compileFile;
 const ncp = require('ncp').ncp;
 
 const path = './../pages/index.pug';
-const data = require('./../assets/data/index.json');
+const data = require('../assets/data/index.json');
 
 (function translateToHtml(path, {
   options = {},
