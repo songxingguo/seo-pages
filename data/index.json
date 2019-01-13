@@ -1,0 +1,10 @@
+{
+  "title": "知晓理工",
+  "subtitle": "一款集校园新闻、校园通知、校内导航、宣讲会与一身的微信小程序",
+  "keywords": "校园新闻、校园通知、校内导航、宣讲会、重庆理工大学",
+  "description": "一款集校园新闻、校园通知、校内导航、宣讲会与一身的微信小程序。",
+  "describe": "明德笃行，自强日新",
+  "pcUrl": "https://wecqut.qiniu.songxingguo.com/cqut/tyg.jpg",
+  "mbUrl": "https://wecqut.qiniu.songxingguo.com/cqut/tyg.jpg",
+  "QRCodeUrl": "./images/QR-code.jpg"
+}
