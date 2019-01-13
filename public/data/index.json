@@ -1,10 +1,10 @@
 {
-  "title": "好车多多",
-  "subtitle": "和你一样喜欢好车的人，也在这里",
-  "keywords": "汽车，买车，汽车网，汽车报价，汽车图片，新闻，评测，B级车",
-  "description": "好车多多提供汽车资讯，精彩的汽车新闻、行情、评测、导购内容。",
-  "describe": "锦鲤多多，好运连连",
-  "pcUrl": "./images/goodCar-pc.jpg",
-  "mbUrl": "./images/goodCar-mb.jpg",
-  "QRCodeUrl": "./images/QR-code.png"
+  "title": "知晓理工",
+  "subtitle": "一款集校园新闻、校园通知、校内导航、宣讲会与一身的微信小程序",
+  "keywords": "校园新闻、校园通知、校内导航、宣讲会、重庆理工大学",
+  "description": "一款集校园新闻、校园通知、校内导航、宣讲会与一身的微信小程序。",
+  "describe": "明德笃行，自强日新",
+  "pcUrl": "./images/tyg.jpg",
+  "mbUrl": "./images/tyg.jpg",
+  "QRCodeUrl": "./images/QR-code.jpg"
 }
